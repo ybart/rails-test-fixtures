@@ -10,4 +10,5 @@ class ActiveSupport::TestCase
   fixtures :all
 
   # Add more helper methods to be used by all tests here...
+  #set_fixture_class :aaa_bbb_greetings => 'Aaa::Bbb::Greetings'
 end
