@@ -7,8 +7,9 @@ class ActiveSupport::TestCase
   #
   # Note: You'll currently still have to declare fixtures explicitly in integration tests
   # -- they do not yet inherit this setting
+
   fixtures :all
+  #set_fixture_class :aaa_bbb_greetings => 'Aaa::Bbb::Greetings'
 
   # Add more helper methods to be used by all tests here...
-  #set_fixture_class :aaa_bbb_greetings => 'Aaa::Bbb::Greetings'
 end
